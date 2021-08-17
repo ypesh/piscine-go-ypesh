@@ -1,0 +1,100 @@
+learn.01founders.co
+git config --global credential.helper store
+git clone https://git.learn.01founders.co/ypesh.learn/piscine-go.git
+
+git clone https://github.com/01-edu/the-final-cl-test
+
+
+git config --global user.email "yousufp@gmail.com"
+git config --global user.name "ypesh.learn"
+
+git config --global credential.helper store
+
+git add hello.sh
+git commit -m "My very first commit"
+git push
+
+
+
+    git add justsomenotes.txt
+    git commit -m "My very first commit"
+    git push
+
+git init
+
+    
+    
+    
+    list the files and directories of the current directory. --group-directories-first
+    Ignore the hidden files, the "." and the ".." --ignore="." --ignore=".."
+    Separates the results with commas. -m
+    Order them by ascending order of creation date (the newest first). --sort=time
+    Have the directories ends with a /.
+
+cut
+cut -d " " -f
+sed
+
+
+    git add hello.sh
+    git commit -m "My very first commit"
+    git push
+
+ 
+git add mastertheLS
+git commit -m "My fifth commit"
+git push
+
+grep
+find
+sed
+cut
+
+
+git add r
+git commit -m "My very first commit"
+git push
+
+
+
+    starting with an a or,
+    all the files ending with a z or,
+    all files starting with z and ending with a!.
+    
+find . -name 'a*' 
+
+
+
+    . means the current directory
+    -type option is used to specify file type and here, we are searching for regular files as represented by f
+    -name option is used to specify a search pattern in this case, the file extensions
+    -o means “OR”
+
+
+find . -name 'a*' -o -name 'z*' -o -name '*z' -o -name '*a!'
+
+camp4 helped
+https://www.tecmint.com/linux-find-command-to-search-multiple-filenames-extensions/
+
+git add look
+git commit -m "My very first commit"
+git push
+
+
+camp 5
+all the files ending with .sh.
+
+
+find . -type f \( -name "*.sh" \) | sed 's/.sh//g'
+sed 's/ //g'
+
+
+git add countfiles.sh lookagain.sh
+git commit -m "My very first commit"
+git push
+
+https://shapeshed.com/unix-cut/#how-to-cut-by-character
+https://stackoverflow.com/questions/8518750/to-show-only-file-name-without-the-entire-directory-path
+
+
+
